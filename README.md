@@ -1,16 +1,26 @@
 # HarmonyOS WebView Shell - 鸿蒙套壳 APP 模板
 
-纯 ArkTS 开发的 HarmonyOS 6 ( NEXT ) WebView 套壳应用模板。只需修改一个 URL，即可将任意网页打包为鸿蒙原生 APP。
+![HarmonyOS](https://img.shields.io/badge/HarmonyOS-NEXT%20API22-red)
+![ArkTS](https://img.shields.io/badge/ArkTS-5.0-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-鸿蒙6-orange)
+
+> 纯 ArkTS 开发的 HarmonyOS 6（NEXT）WebView 套壳应用模板。
+> **只需修改一个 URL，即可将任意网页打包为鸿蒙原生 APP。**
+
+---
 
 ## 核心功能
 
-- **WebView 加载网页** — 全屏加载指定网址，支持 JS、DOM Storage、图片访问
-- **返回键拦截** — 子页面按返回自动后退网页历史；首页双击退出应用
-- **全屏启动页** — 自定义 Splash 页面，支持全屏铺满展示品牌图
-- **文件选择器** — 拦截 H5 的 `<input type="file">`，调起系统相册选图上传
-- **权限自动申请** — 内置相机、读写相册权限申请（不需要可一键删除）
-- **沉浸式导航栏** — 隐藏底部导航指示条，页面内容更沉浸
-- **WebView 权限授予** — 自动授予网页请求的设备权限（如摄像头）
+| 功能 | 说明 |
+|------|------|
+| 🌐 **WebView 全屏加载** | 加载指定网址，支持 JS、DOM Storage、图片访问 |
+| 🔙 **智能返回键** | 网页内自动后退历史；首页双击退出，防误触 |
+| 🎨 **品牌启动页** | 自定义全屏 Splash，2 秒后自动跳转主页 |
+| 📷 **相机 & 相册** | 拦截 H5 文件选择，调起系统相册/相机上传 |
+| 🔐 **权限自动管理** | 启动时申请相机、相册权限；不需要可一键删除 |
+| 📱 **沉浸式体验** | 隐藏底部导航指示条，内容全屏沉浸展示 |
+| 🎥 **WebView 权限授予** | 自动授予网页请求的设备权限（如摄像头） |
 
 ## 快速开始
 
